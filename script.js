@@ -113,7 +113,7 @@ inputField.onkeydown = function () {
 }
 
 inputField.onkeyup = function () {
-  currentLetter = inputField.value
+  currentLetter = inputField.value.split('').pop()
   inputField.value = null
   if (currentLetter === ' ') {
     spacePressed()
