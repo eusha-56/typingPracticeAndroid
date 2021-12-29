@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Peactice typing!!!</title>
+</head>
+
+<body>
+  <h2 class="heading" style="text-align: center;">Test your skills!</h2>
+  <table class="stats">
+    <tr>
+      <td>Time elapsed</td>
+      <td>:</td>
+      <td class="timeElapsed"><span class="min">0</span>:<span class="sec">00</span></td>
+    </tr>
+    <tr>
+      <td>Words typed</td>
+      <td>:</td>
+      <td class="numberOfTypedWords">0</td>
+    </tr>
+    <tr>
+      <td>Correct words</td>
+      <td>:</td>
+      <td class="numberOfCorrectWords">0</td>
+    </tr>
+    <tr>
+      <td>Wrong Words</td>
+      <td>:</td>
+      <td class="numberOfWrongWords">0</td>
+    </tr>
+    <tr>
+      <td style=" font-weight: bold; font-size: large;">WPM</td>
+      <td>:</td>
+      <td class="wpm">0</td>
+    </tr>
+  </table>
+  <div class="container">
+    <div class="text">
+      <div class="typedText">
+        <div class="typing">
+          <span class="currentWord correctWord"></span>
+          <span class="currentWord wrongWord"></span>
+        </div>
+        <pre class="typedWord"></pre>
+      </div>
+      <div class="upcomingText"></div>
+    </div>
+    <div class="input">
+      <input type="text" class="inputField" id="inputField">
+    </div>
+  </div>
+  <div class="button">
+    <button class="resetButton">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

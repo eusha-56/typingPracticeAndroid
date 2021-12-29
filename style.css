@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  margin-top: 1cm;
+  
+}
+.stats{
+  margin: 0.5cm auto;
+}
+.container{
+  width: 70vw;
+  height: 2cm;
+  margin: auto;
+  border: 3px solid #767676;
+  border-radius: 10px;
+  transition: 0.5s border-radius;
+  transition-delay: 0.1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.input{
+  background: transparent;
+  margin-top: -1.5cm;
+  margin-bottom: 0.5cm;
+  height: 2cm;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  
+}
+.inputField{
+  background: transparent;
+  width: 80%;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  font-size: larger;
+  color: transparent;
+
+}
+.inputField:focus{
+  outline: none;
+  text-align: center;
+  caret-color: #c42700;
+  border-bottom: 3px solid #c4b000;
+}
+.text{
+  height: 2cm;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+}
+.typedText, .upcomingText{
+  height: 100%;
+  width: 50%;
+  font-size: larger;
+  margin-top: 0.15cm;
+  font-weight: bolder;
+  font-family: Apple Chancery, cursive;
+}
+.upcomingText{
+  text-align: left;
+  white-space: pre;
+}
+.typedText{
+  text-align: right;
+  white-space: nowrap;
+  text-align: right;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+}
+.typedWord{
+  margin: 0;
+  font-family: inherit;
+}
+.wrongWord{
+  color: #767676;
+  text-decoration: line-through;
+}
+.correctWord{
+  color: #767676;
+  text-decoration: none;
+}
+.currentWord{
+  color: rgb(0, 162, 255);
+}
+.upcomingText{
+  color: black;
+}
+
+.button{
+  display: flex;
+  width: 100vw;
+  margin-top: 1cm;
+  justify-content: center;
+}
+.resetButton{
+  padding: 0.3cm;
+  border-radius: 20%;
+}
