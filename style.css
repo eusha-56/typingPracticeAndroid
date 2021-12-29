@@ -82,11 +82,11 @@ body{
   font-family: inherit;
 }
 .wrongWord{
-  color: #767676;
-  text-decoration: line-through;
+  color: #E97452 !important; 
+  text-decoration: none;
 }
 .correctWord{
-  color: #767676;
+  color: #87CEFB;
   text-decoration: none;
 }
 .currentWord{
